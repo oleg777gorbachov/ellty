@@ -439,6 +439,8 @@ nav {
   margin-top: 24px;
   cursor: pointer;
   color: var(--color-black);
+  display: flex;
+  gap: 6px;
 }
 
 .popup__login a {
