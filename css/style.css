@@ -1794,9 +1794,14 @@ body {
     display: none;
   }
 
+  nav {
+    visibility: visible !important;
+    transform: translate(0%) !important;
+  }
+
   .acordion:hover .acordion__content {
-    visibility: visible;
-    opacity: 1;
+    visibility: visible !important;
+    opacity: 1 !important;
   }
 
   .acordion:hover::before {
